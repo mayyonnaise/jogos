@@ -20,21 +20,21 @@ while not sair:
             print("pc escolheu pedra, empate.")
 
         elif (escolha_pc == 2):
-            print("pc escolheu papel, empate.") 
+            print("pc escolheu papel, você perdeu.") 
         elif (escolha_pc == 3):
             print ("pc escolheu tesoura, você ganhou.")
     elif (opcao == 2): 
         if (escolha_pc == 1):
-            print("pc escolheu pedra, você ganhou.")
+            print("pc escolheu pedra, você perdeu.")
         elif (escolha_pc == 2):
-            print("o pc escolheu papel, empate")
+            print("o pc escolheu papel, empate.")
         elif (escolha_pc == 3):
             print("pc escolheu tesoura, você perdeu.")
     elif (opcao == 3): 
         if (escolha_pc == 1):
-            print("pc escolheu pedra, empate.")
+            print("pc escolheu pedra, você perdeu.")
         elif (escolha_pc == 2):
-            print("pc escolheu papel, empate.")
+            print("pc escolheu papel, você ganhou.")
         elif (escolha_pc == 3):
             print("pc escolheu tesoura, empate.")
     else: 
